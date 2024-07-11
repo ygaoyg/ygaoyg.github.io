@@ -5,16 +5,14 @@ page_title: Group
 permalink: /group/
 ---
 ## Members
-{% include image.html image_path="../pics/haoyu_cheng.png" image_width="20%" %}
+{% include image.html image_path="../pics/Gao-Yuan.jpg" image_width="20%" %}
 
-#### Haoyu Cheng, PhD
-Haoyu Cheng is a tenure-track Assistant Professor at the [Department of Biomedical Informatics and Data Science (BIDS)][BIDS] at Yale University, School of Medicine. Before that Haoyu was a Postdoctoral Scholar working with Dr. Heng Li at Dana-Farber Cancer Institute and Harvard Medical School. He obtained his Ph.D. degree in Computer Science from the University of Science and Technology of China, under the supervision of Dr. Yun Xu. His research primarily focuses on developing computational methods for genomic data, with a particular emphasis on *de novo* genome assembly and its applications. His full CV is available [here][HC_CV].
+#### Yuan Gao, PhD
+Dr. Yuan Gao earned her Ph.D. in Biochemistry and Molecular Biology from Mayo Clinic College of Medicine. She worked as a Postdoctoral Fellow in Dr. Christopher Vakoc's lab at Cold Spring Harbor Laboratory and, starting in 2024, established her own lab as an Assistant Professor in the Department of Pharmacology at Case Western Reserve University. Dr. Gao's research focuses on epigenetic dysregulation and drug target discovery in cancer, earning recognition such as the NIH K99/R00 Pathway to Independence Award and the CSHL Simons Cancer Research Fund. Her work has been published in journals including Nature Cell Biology, PNAS, Nucleic Acid Research, Cancer Cell, and Nature Genetics. Her full CV is available [here][YG_CV].
 
 {% include spareline.html%}
 
-**Email**: haoyu.cheng [at] yale [dot] edu
-
-**Address**: 100 College St, New Haven CT, 06510
+**Email**: yxg811 [at] case [dot] edu
 
 {% include spareline.html%}
 
@@ -25,9 +23,8 @@ Haoyu Cheng is a tenure-track Assistant Professor at the [Department of Biomedic
 ## Alumni
 
 | Name | Role | Current status |
-| ----------- | ----------- | ----------- 
+| ----------- | ----------- | -----------
 |  |  |  ||
 -->
 
-[BIDS]: https://medicine.yale.edu/biomedical-informatics-data-science/
-[HC_CV]: ../pics/Haoyu_Cheng_CV_public.pdf
+[YG_CV]: ../pics/CV_ygao_2023.pdf
