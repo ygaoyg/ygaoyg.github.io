@@ -4,7 +4,7 @@
 
 layout: page
 title: Home
-page_title: Welcome to the Cheng Lab @ Yale
+page_title: Welcome to the Gao Lab @ Case Western Reserve University
 ---
 
 **We are a computational genomics lab based in the [Department of Biomedical Informatics and Data Science (BIDS)][BIDS] at Yale University, School of Medicine.** Our research is dedicated to creating highly efficient computational methodologies for genomic applications, including genome assembly, read alignment, variant calling, and string indexing. We have developed a series of *de novo* genome assembly algorithms (e.g. [hifiasm][Hifiasm]) that have been extensively utilized across a variety of large-scale sequencing projects, such as the [Human Pangenome Reference Consortium][HPRC], the [Vertebrate Genomes Project][VGP], and the [Darwin Tree of Life project][DWOT]. Within these projects, we also work closely with collaborators to explore the applications of genome assemblies. Our lab is always open to new collaboration opportunities with both basic science and clinical research groups.
@@ -16,10 +16,10 @@ page_title: Welcome to the Cheng Lab @ Yale
 <!---
 {% include linebreaker.html%}
 
-- We are interested in disease systems of multi-cellular components especially cancer. 
-- We lead development of computational, statistical, and machine learning methods that leverage large-scale and multi-omic data to understand cancer initiation, progression, and therapeutic responses. 
-- We foster an interdisciplinary, inclusive, and supportive environment. We welcome computational biologists, bioinformaticians, computer scientists, MDs, immunologists, and oncologists. 
-- We are enthuastic collaborators to work on real-world biological and translational genomics problems. 
+- We are interested in disease systems of multi-cellular components especially cancer.
+- We lead development of computational, statistical, and machine learning methods that leverage large-scale and multi-omic data to understand cancer initiation, progression, and therapeutic responses.
+- We foster an interdisciplinary, inclusive, and supportive environment. We welcome computational biologists, bioinformaticians, computer scientists, MDs, immunologists, and oncologists.
+- We are enthuastic collaborators to work on real-world biological and translational genomics problems.
 - <u>Postdocs</u> or PhD soon-to-be who work on computational biology, bioinformatics, cancer genomics, single-cell omics, spatial transcriptomics, machine learning, genetic variant function, and biological questions in cancer or tumor microenvironment - Welcome to contact and join us! If possible please include (1) CV or Resume (2) A short research statement describing previous/ongoing work and proposed research and interest (3) 1-3 representative publications (published, accepted, or preprint) (4) Three names of references and contact information. Thanks! (Job postings to come)
 - <u>Prospective students</u> interested in our research are encouraged to apply through Duke graduate programs: Computational Biology and Bioinformatics ([CBB] - PhD), Biostatsistics (PhD & MS). (Or co-mentoring for other Duke programs!) Graduate admission decisions are made by program committee. If contacting for interest, please include (1) CV or Resume (2) Short description of research experiences and interest (3) Three names of references and contact information. We will also be available for CBB & Biostats students to rotate soon.
 -->
@@ -28,7 +28,7 @@ page_title: Welcome to the Cheng Lab @ Yale
 ---
 ## Research interests
 
-#### __Complex genome reconstruction with *de novo* assembly__
+#### __Linking metabolic signal with gene expression: allosteric regulation of transcription factors by metabolite__
 
 *De novo* assembly, especially *de novo* haplotype-resolved assembly, has been a central problem and remains one of the most challenging tasks in bioinformatics for four decades. It involves multiple advanced algorithms such as sketching, alignment and many branches in graph theory, and demands programming skills of the highest level. We have developed a series of *de novo* assembly algorithms, including hifiasm, hifiasm (Hi-C) and hifiasm (UL), which are designed to produce optimal genome assemblies by combining different data types. These algorithms have been widely used and have already become the dominant long-read genome assemblers. Currently, we are particularly interested in developing *de novo* assembly algorithms  for complex genomes with polyploid alterations such as cancer genomes and polyploid plant genomes.
 
@@ -93,4 +93,4 @@ The advent of accurate PacBio High-Fidelity (HiFi) long reads enables the haplot
 [DukeBB]: https://biostat.duke.edu
 [Contact]: mailto:yi.zhang@duke.edu
 [CBB]: https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program
-[Vaca]: https://hcheng-lab.github.io/join/ 
+[Vaca]: https://hcheng-lab.github.io/join/
