@@ -4,93 +4,50 @@
 
 layout: page
 title: Home
-page_title: Welcome to the Gao Lab @ Case Western Reserve University
+page_title: Welcome to the Gao Lab @ Case Western Reserve univerisity
 ---
 
-**We are a computational genomics lab based in the [Department of Biomedical Informatics and Data Science (BIDS)][BIDS] at Yale University, School of Medicine.** Our research is dedicated to creating highly efficient computational methodologies for genomic applications, including genome assembly, read alignment, variant calling, and string indexing. We have developed a series of *de novo* genome assembly algorithms (e.g. [hifiasm][Hifiasm]) that have been extensively utilized across a variety of large-scale sequencing projects, such as the [Human Pangenome Reference Consortium][HPRC], the [Vertebrate Genomes Project][VGP], and the [Darwin Tree of Life project][DWOT]. Within these projects, we also work closely with collaborators to explore the applications of genome assemblies. Our lab is always open to new collaboration opportunities with both basic science and clinical research groups.
-
+**We are a cancer genomics lab based in the [Department of Pharmacology][Pharm] at Case Western Reserve University, School of Medicine.** Our research is dedicated to uncover novel fundamental mechanisms underlying gene expression in cancers. We utilizes advanced multi-omics technologies, including high-throughput CRISPR screening, bulk&single-cell transcriptomics, epigenomics, proteomics, and metabolomics to comprehensively detail the oncogenic mechanisms of transcription factors and identify therapeutic targets for treatment.
 
 {% include spareline.html%}
-- **We are currently seeking postdocs, students, and staff to join our team**. For more information, please view our available [vacancies][Vaca].
+- **We are currently seeking postdocs, students, and staff to join our team**. For more information, please view our available [opportunities][Oppo].
 
-<!---
-{% include linebreaker.html%}
-
-- We are interested in disease systems of multi-cellular components especially cancer.
-- We lead development of computational, statistical, and machine learning methods that leverage large-scale and multi-omic data to understand cancer initiation, progression, and therapeutic responses.
-- We foster an interdisciplinary, inclusive, and supportive environment. We welcome computational biologists, bioinformaticians, computer scientists, MDs, immunologists, and oncologists.
-- We are enthuastic collaborators to work on real-world biological and translational genomics problems.
-- <u>Postdocs</u> or PhD soon-to-be who work on computational biology, bioinformatics, cancer genomics, single-cell omics, spatial transcriptomics, machine learning, genetic variant function, and biological questions in cancer or tumor microenvironment - Welcome to contact and join us! If possible please include (1) CV or Resume (2) A short research statement describing previous/ongoing work and proposed research and interest (3) 1-3 representative publications (published, accepted, or preprint) (4) Three names of references and contact information. Thanks! (Job postings to come)
-- <u>Prospective students</u> interested in our research are encouraged to apply through Duke graduate programs: Computational Biology and Bioinformatics ([CBB] - PhD), Biostatsistics (PhD & MS). (Or co-mentoring for other Duke programs!) Graduate admission decisions are made by program committee. If contacting for interest, please include (1) CV or Resume (2) Short description of research experiences and interest (3) Three names of references and contact information. We will also be available for CBB & Biostats students to rotate soon.
--->
 
 {% include linebreaker.html%}
 ---
-## Research interests
+## Research Interests
 
-#### __Linking metabolic signal with gene expression: allosteric regulation of transcription factors by metabolite__
+#### __Linking metabolic signal with gene expression: Allosteric regulation of transcription factors by metabolites__
 
-*De novo* assembly, especially *de novo* haplotype-resolved assembly, has been a central problem and remains one of the most challenging tasks in bioinformatics for four decades. It involves multiple advanced algorithms such as sketching, alignment and many branches in graph theory, and demands programming skills of the highest level. We have developed a series of *de novo* assembly algorithms, including hifiasm, hifiasm (Hi-C) and hifiasm (UL), which are designed to produce optimal genome assemblies by combining different data types. These algorithms have been widely used and have already become the dominant long-read genome assemblers. Currently, we are particularly interested in developing *de novo* assembly algorithms  for complex genomes with polyploid alterations such as cancer genomes and polyploid plant genomes.
+A key hypothesis underlying my research is that transcriptional and epigenetic machineries are allosterically regulated by yet-to-be discovered endogenous metabolites. A direct link between metabolites and transcriptional regulators is still lacking with the notable exception of nuclear hormone receptors. Knowledge of metabolites’ binding sites has allowed for effective pharmacological strategies, which are among the most successful targeted therapies in all of oncology to date. It is through the profiling of naturally occurring metabolites that can bind to ETV6, a key protein in the pediatric malignancy Ewing sarcoma, that I uncovered its specific association with a metabolite phosphatidic acid. Despite being studied in diverse cancer types with oncogenic roles, this is the first evidence indicating that an ETS family transcription factor can be directly regulated by a metabolite. Elucidation of allosteric regulation of transcription factors by metabolites will reveal fundamental regulatory mechanisms and can potentially provide opportunities to develop novel pharmacology.
+
+{% include image.html image_path="pics/RI_1.png" image_width="50%" %}
 
 {% include spareline.html%}
 
-#### __Comprehensive variant calling and interpretation__
+#### __Paradoxical Activation of Oncofusions to Eliminate Cancer Cells__
 
-For the human genome, variant calling is typically performed through read alignment, which aligns fragmented reads back to the human reference genome. However, the generic reference genome often lacks specific personal information, leading to potential inaccuracies and biases, especially within highly repetitive and structurally different regions. Consequently, there is a rapidly growing demand for *de novo* genome assembly—a methodology that reconstructs the genome without relying on a reference. Leveraging our computational expertise, we aim to develop innovative variant calling and interpretation methods that are based on *de novo* genome assembly.
+Fusion oncoproteins, resulting from chromosomal translocations, are observed in approximately 17% of cancers. They drive cell transformation and are present exclusively in cancer cells, making them highly attractive drug targets. Growing evidence suggests that cancer cells can tolerate only a confined window of oncogenic signaling flux, and further activation of an already-activated oncogenic signaling pathway selectively impairs cell fitness. For instance, hyperactivation of BCR/ABL by withdrawing Imatinib leads to a lethal oncogenic stress response in cancer cells. Tumor cells driven by fusion oncoproteins, such as EWS/FLI and PAX3/FOXO1, are highly sensitive to even slight increases in these oncoproteins. Beyond merely expression levels, our study demonstrated that hyperactive EWS/FLI1, with enhanced chromatin occupancy induced by the loss of the transcription repressor ETV6, specifically inhibits Ewing sarcomagenesis. More importantly, unlike mainstream oncogenic inhibiting treatments, where resistant cells often exhibit increased oncogenic pathways, it has been shown that paradoxical activation of these pathways predominantly leads to a tumor-suppressive phenotype in resistant clones. These evidence, combined with our recent findings, spark a new targeting strategy: enhancing the activity of oncofusions to selectively target cancers driven by these pathways. This approach will redefine 'druggability' in target discovery and inspire a new wave of drug development and repurposing against cancer.
 
+{% include image.html image_path="pics/RI_1.png" image_width="50%" %}
 
 {% include linebreaker.html%}
 ---
 ## Selected publications
 
-- <strong>Cheng H</strong>, Asri M, Lucas J, Koren S, Li H#. "Scalable telomere-to-telomere assembly for diploid and polyploid genomes with double graph." <a href="https://www.nature.com/articles/s41592-024-02269-8" target="_blank"><strong><em>Nat Methods</em></strong></a> (2024).
+- <strong>Gao, Y.</strong>, He XY., Wu, X., Huang Y., Toneyan S., Ipsaro, J., Ha, T., Koo, P., Joshua-Tor, L., Bailey, K., Egeblad, M., Vakoc, C.# "ETV6 dependency in Ewing sarcoma by antagonism of EWS-FLI1-mediated enhancer activation." <a href="https://www.nature.com/articles/s41556-022-01060-1" target="_blank"><strong><em>Nature Cell Biology</em></strong></a> (2023)
 
-- <strong>Cheng H</strong>, Jarvis ED, Fedrigo O, Koepfli KP, Urban L, Gemmell NJ, Li H#. "Haplotype-resolved assembly of diploid genomes without parental data." <a href="https://www.nature.com/articles/s41587-022-01261-x" target="_blank"><strong><em>Nat Biotechnol</em></strong></a> (2022).
+*Tabspace*Featured as the Cover Story for Feb issue at Nat Cell Biol
+*Tabspace*Highlighted by Prof. Elizabeth R Lawlor at <a href="https://www.nature.com/articles/s41556-022-01067-8" target="_blank"><strong><em>Nature Cell Biology</em></strong></a>
 
-- <strong>Cheng H</strong>, Concepcion GT, Feng X, Zhang H, Li H#. "Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm." <a href="https://www.nature.com/articles/s41592-020-01056-5" target="_blank"><strong><em>Nat Methods</em></strong></a> (2021).
+- He XY, <strong>Gao, Y.</strong>, Ng D., Michalopoulou E., George S., Adrover JM., Sun L., Albrengues J., Daßler-Plenker J., Han X., Wan L., Wu XS., Shui LS., Huang YH., Liu B., Su C., Spector DL., Vakoc CR., Aelst LV., Egeblad M.# "Chronic stress increases metastasis via neutrophil-mediated changes to the microenvironment." <a href="https://www.cell.com/cancer-cell/fulltext/S1535-6108(24)00037-0" target="_blank"><strong><em>Cancer Cell</em></strong></a> (2024)
 
-- <strong>Cheng H</strong>, Wu M, Xu Y#. "FMtree: a fast locating algorithm of FM-indexes for genomic data." <a href="https://academic.oup.com/bioinformatics/article/34/3/416/4160683" target="_blank"><strong><em>Bioinformatics</em></strong></a> (2018).
+- Wen, Q.*, Zhou, J.*, Tian, C.*, Li, X.*, Song, G.*, <strong>Gao, Y.</strong>, …, Gan, H.# "Symmetric inheritance of parental histones safeguards the fate of mouse embryonic stem cells during differentiation." <a href="https://www.nature.com/articles/s41588-023-01477-w" target="_blank"><strong><em>Nature Genetics</em></strong></a>(2024)
 
+- Tian, C.*, Zhou, J.*, Li, X.*, <strong>Gao, Y.</strong>, Wen, Q., Kang, X., Wang, N., Yao, Y., Jiang, J., Song, G., Zhang, T., Hu, S., Liao, J., Yu, C., Wang, Z., Liu, X., Pei, X., Chan, K., Liu, Z. & Gan, H.# "Impaired histone inheritance promotes tumor progression." <a href="https://www.nature.com/articles/s41467-023-39185-y" target="_blank"><strong><em>Nature Communications</em></strong></a> (2023)  
 
-<!---
-{% include image.html image_path="pics/RI_1.png" image_width="50%" %}
-
-The advance of sequencing technologies makes it possible to produce high-quality reads that are both long and accurate. However, most existing de novo assembly algorithms could not take full advantage of the power of long accurate reads, as they were originally designed for long error-prone reads. To this end, we have been developing a haplotype-resolved assembly algorithm [hifiasm](https://www.nature.com/articles/s41592-020-01056-5) (*Cheng et al. Nat Methods* 2021), which introduces a haplotype-aware error correction strategy to faithfully reconstruct different haplotypes and resolve repeats. Additionally, hifiasm incorporates the graph-binning strategy, leveraging the topological information of the assembly graph to significantly improve the quality of trio-binning assemblies. The benchmark conducted by the Human Pangenome Reference Consortium (HPRC) showed that hifiasm outperformed all other algorithms by a large margin, enabling it to be the assembler of choice by HPRC. Hifiasm has also been widely used by many other large-scale sequencing projects, such as the Genome in a Bottle (GIAB), the Vertebrate Genomes Project (VGP), as well as the Darwin Tree of Life project (DToL).
-
+- <strong>Gao, Y.</strong>, Gan, H., Lou, Z., and Zhang, Z.# "Asf1a resolves bivalent chromatin domains for the induction of lineage-specific genes during mouse embryonic stem cell differentiation." <a href="https://www.pnas.org/doi/full/10.1073/pnas.1801909115" target="_blank"><strong><em>Proceedings of the National Academy of Sciences of the United States of America</em></strong></a> (2018)
 
 
-{% include linebreaker.html%}
-{% include spareline.html%}
-
-
-{% include image.html image_path="pics/RI_2.png" image_width="50%" %}
-
-The limitation of hifiasm is that it requires parental data to produce fully-phased assemblies, which is not always available. To address this limitation, we have been extending hifiasm to yield single-sample fully-phased assemblies by integrating additional Hi-C data. The extended hifiasm, termed [hifiasm (Hi-C)](https://www.nature.com/articles/s41587-022-01261-x) (*Cheng et al. Nat Biotechnol* 2022), combines the local phasing information of long reads with the long-range phasing information of Hi-C reads to achieve chromosome-scale phasing. Hifiasm (Hi-C) solves the fully-phased assembly problem as a max-cut-based optimization problem, and leverages the topological structure of the assembly graph for further improvement. Several consortiums, such as the Human Pangenome Reference Consortium (HPRC) and the Vertebrate Genomes Project (VGP), are deploying hifiasm (Hi-C) at scale.
-
-
-{% include linebreaker.html%}
-{% include spareline.html%}
-
-{% include image.html image_path="pics/RI_3.png" image_width="50%" %}
-
-The advent of accurate PacBio High-Fidelity (HiFi) long reads enables the haplotype-resolved assembly to become a routine procedure for large genomes. However, HiFi reads, while precise, often fall short in length to resolve long exact repeats, leading to fragmented segments in repeat-dense areas, such as centromeres. Building upon my earlier HiFi-only hifiasm algorithm, I developed a hybrid assembly approach, termed [hifiasm (UL)](https://www.nature.com/articles/s41592-024-02269-8) (*Cheng et al. Nat Methods* 2024). This incorporates the considerably longer, albeit less accurate, ultra-long ONT reads. The advantages of hifiasm (UL) stem mainly from the novel double graph framework, which integrates assembly graphs at different scales, maximizing the capabilities of both HiFi and ultra-long reads. The Human Pangenome Reference Consortium (HPRC) is assembling 150 telomere-to-telomere human genomes utilizing hifiasm (UL) due to its demonstrated superior performance.
--->
-
-[DFCI]: https://ds.dfci.harvard.edu/
-[HSPH]: https://www.hsph.harvard.edu/
-[LiuLab]: https://liulab-dfci.github.io/
-[MylesLab]: https://mylesbrownlab.dana-farber.org/
-[LinLab]: https://content.sph.harvard.edu/xlin/people.html
-[SongLab]: https://song.igb.illinois.edu/
-[UIUC]: https://illinois.edu/
-[BIDS]: https://medicine.yale.edu/biomedical-informatics-data-science/
-[Hifiasm]: https://github.com/chhylp123/hifiasm
-[HPRC]: https://humanpangenome.org/
-[VGP]: https://vertebrategenomesproject.org/
-[DWOT]: https://www.darwintreeoflife.org/
-[DukeSoM]: https://medschool.duke.edu
-[DukeNeurosurgery]: https://neurosurgery.duke.edu/news/yi-zhang-joins-duke-neurosurgery-faculty
-[DukeBB]: https://biostat.duke.edu
-[Contact]: mailto:yi.zhang@duke.edu
-[CBB]: https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program
-[Vaca]: https://hcheng-lab.github.io/join/
+[Pharm]: https://case.edu/medicine/pharmacology/
+[Oppo]: https://ygao-lab.github.io/join/
