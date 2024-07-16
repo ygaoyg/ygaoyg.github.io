@@ -6,24 +6,10 @@ layout: page
 title: Home
 page_title: Welcome to the Gao Lab @ CWRU
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .justify-text {
-            text-align: justify;
-        }
-    </style>
-</head>
-<body>
-    <div class="justify-text">
-        We are a cancer epigenomics lab based in the <a href="Pharm">Department of Pharmacology</a> at Case Western Reserve University, School of Medicine. Our research is dedicated to uncover novel fundamental mechanisms underlying gene expression in cancers. We utilize advanced multi-omics technologies, including high-throughput CRISPR screening, single-cell transcriptomics, epigenomics, proteomics, and metabolomics to comprehensively detail the oncogenic mechanisms of transcription factors and identify therapeutic targets for treatment.
-    </div>
-</body>
-</html>
+
+<div style="text-align: justify;">
+We are a cancer epigenomics lab based in the <a href="Pharm">Department of Pharmacology</a> at Case Western Reserve University, School of Medicine. Our research is dedicated to uncover novel fundamental mechanisms underlying gene expression in cancers. We utilize advanced multi-omics technologies, including high-throughput CRISPR screening, single-cell transcriptomics, epigenomics, proteomics, and metabolomics to comprehensively detail the oncogenic mechanisms of transcription factors and identify therapeutic targets for treatment.
+</div>
 
 <hr class="styled-hr">
 
@@ -34,21 +20,17 @@ page_title: Welcome to the Gao Lab @ CWRU
 #### __Linking metabolic signal with gene expression:__
 __*Allosteric regulation of transcription factors by metabolites*__
 
-<div style="text-align: justify;">
-A key hypothesis underlying my research is that transcriptional and epigenetic machineries are allosterically regulated by yet-to-be discovered endogenous metabolites. A direct link between metabolites and transcriptional regulators is still lacking with the notable exception of nuclear hormone receptors. Knowledge of metabolites’ binding sites has allowed for effective pharmacological strategies, which are among the most successful targeted therapies in all of oncology to date. It is through the profiling of naturally occurring metabolites that can bind to ETV6, a key protein in the pediatric malignancy Ewing sarcoma, that I uncovered its specific association with a metabolite phosphatidic acid. Despite being studied in diverse cancer types with oncogenic roles, this is the first evidence indicating that an ETS family transcription factor can be directly regulated by a metabolite. Elucidation of allosteric regulation of transcription factors by metabolites will reveal fundamental regulatory mechanisms and can potentially provide opportunities to develop novel pharmacology.
-</div>
-
-<img src="pics/RI_1.png" alt="Description of image" style="width:50%; display:block; margin:0 auto;" />
+<img src="pics/RI_1.png" alt="Description of image" style="width:100%; display:block; margin:0 auto;" />
 
 <hr class="styled-hr">
 
 #### __Paradoxical Activation of Oncofusions to Eliminate Cancer Cells__
 
 <div style="text-align: justify;">
-Fusion oncoproteins, resulting from chromosomal translocations, are observed in approximately 17% of cancers. They drive cell transformation and are present exclusively in cancer cells, making them highly attractive drug targets. Growing evidence suggests that cancer cells can tolerate only a confined window of oncogenic signaling flux, and further activation of an already-activated oncogenic signaling pathway selectively impairs cell fitness. For instance, hyperactivation of BCR/ABL by withdrawing Imatinib leads to a lethal oncogenic stress response in cancer cells. Tumor cells driven by fusion oncoproteins, such as EWS/FLI and PAX3/FOXO1, are highly sensitive to even slight increases in these oncoproteins. Beyond merely expression levels, our study demonstrated that hyperactive EWS/FLI1, with enhanced chromatin occupancy induced by the loss of the transcription repressor ETV6, specifically inhibits Ewing sarcomagenesis. More importantly, unlike mainstream oncogenic inhibiting treatments, where resistant cells often exhibit increased oncogenic pathways, it has been shown that paradoxical activation of these pathways predominantly leads to a tumor-suppressive phenotype in resistant clones. These evidence, combined with our recent findings, spark a new targeting strategy: enhancing the activity of oncofusions to selectively target cancers driven by these pathways. This approach will redefine 'druggability' in target discovery and inspire a new wave of drug development and repurposing against cancer.
+Growing evidence suggests that cancer cells can tolerate only a confined window of oncogenic signaling flux, and further activation of an already-activated oncogenic signaling pathway selectively impairs cell fitness. Our recent findings demonstrated that hyperactive EWS/FLI1, with enhanced chromatin occupancy induced by the loss of the transcription repressor ETV6, specifically inhibits Ewing sarcomagenesis. This sparks a new targeting strategy: enhancing the activity of oncofusions to selectively target cancers driven by these pathways. This approach will redefine 'druggability' in target discovery and inspire a new wave of drug development and repurposing against cancer.
 </div>
 
-<img src="pics/RI_2.png" alt="Description of image" style="width:50%; display:block; margin:0 auto;" />
+<img src="pics/RI_2.png" alt="Description of image" style="width:100%; display:block; margin:0 auto;" />
 
 <hr class="styled-hr">
 
