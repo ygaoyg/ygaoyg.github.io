@@ -10,8 +10,9 @@ permalink: /publications/
 
  - <strong>Gao, Y.</strong>, He XY., Wu, X., Huang Y., Toneyan S., Ipsaro, J., Ha, T., Koo, P., Joshua-Tor, L., Bailey, K., Egeblad, M., Vakoc, C.# "ETV6 dependency in Ewing sarcoma by antagonism of EWS-FLI1-mediated enhancer activation." <a href="https://www.nature.com/articles/s41556-022-01060-1" target="_blank"><strong><em>Nature Cell Biology</em></strong></a> (2023)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Featured as the Cover Story for Feb issue at Nat Cell Biol
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Highlighted by Prof. Elizabeth R Lawlor at <a href="https://www.nature.com/articles/s41556-022-01067-8" target="_blank"><strong><em>Nature Cell Biology</em></strong></a>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Featured as the Cover Story for Feb issue at Nat Cell Biol
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Highlighted by Prof. Elizabeth R Lawlor at <a href="https://www.nature.com/articles/s41556-022-01067-8" target="_blank"><strong><em>Nature Cell Biology</em></strong></a>
 
 - <strong>Gao, Y.</strong>, Gan, H., Lou, Z., and Zhang, Z.# "Asf1a resolves bivalent chromatin domains for the induction of lineage-specific genes during mouse embryonic stem cell differentiation." <a href="https://www.pnas.org/doi/full/10.1073/pnas.1801909115" target="_blank"><strong><em>Proc Natl Acad Sci U S A.</em></strong></a> (2018)
 

@@ -11,7 +11,7 @@ permalink: /research/
   <p><strong><em>Allosteric regulation of transcription factors by metabolites</em></strong></p>
 </div>
 
-<img src="/pics/RI_1.png" alt="Description of image" style="width:100%; display:block; margin:0 auto;" />
+<img src="/pics/RI_1.png" alt="Description of image" style="width:75%; display:block; margin:0 auto;" />
 
 <hr class="styled-hr">
 <div style="text-align: center;">
@@ -22,7 +22,7 @@ permalink: /research/
 Growing evidence suggests that cancer cells can tolerate only a confined window of oncogenic signaling flux, and further activation of an already-activated oncogenic signaling pathway selectively impairs cell fitness. Our recent findings demonstrated that hyperactive EWS/FLI1, with enhanced chromatin occupancy induced by the loss of the transcription repressor ETV6, specifically inhibits Ewing sarcomagenesis. This sparks a new targeting strategy: enhancing the activity of oncofusions to selectively target cancers driven by these pathways. This approach will redefine 'druggability' in target discovery and inspire a new wave of drug development and repurposing against cancer.
 </div>
 
-<img src="/pics/RI_2.png" alt="Description of image" style="width:100%; display:block; margin:0 auto;" />
+<img src="/pics/RI_2.png" alt="Description of image" style="width:75%; display:block; margin:0 auto;" />
 
 <hr class="styled-hr">
 
