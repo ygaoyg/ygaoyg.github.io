@@ -6,7 +6,7 @@ layout: page
 title: Home
 page_title: Welcome to the Gao Lab @ CWRU
 ---
-<img src="pics/case.png" alt="Description of image" style="width:100%; display:block; margin:0 auto;" />
+<img src="pics/case.png" alt="Description of image" style="width:80%; display:block; margin:0 auto;" />
 
 <hr class="styled-hr">
 
