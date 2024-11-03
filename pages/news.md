@@ -20,6 +20,8 @@ permalink: /news/
 
 ---
 
+<div style="margin-top: 20px;"></div>
+
 <div style="text-align: center; margin-bottom: 40px;">
   <img src="../pics/IMG_1364.jpeg" alt="Lab Photo 2" style="max-width: 60%; height: auto;">
   <p style="text-align: center; margin-top: 10px;">
