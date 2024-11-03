@@ -4,7 +4,7 @@ title: Group
 page_title: Group
 permalink: /group/
 ---
-## Members
+## PI
 <h4><strong>Yuan Gao, PhD</strong></h4>
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <div style="flex: 1; text-align: center;">
@@ -16,6 +16,28 @@ permalink: /group/
 </div>
 
 **Email**: yxg811 [at] case [dot] edu
+
+## Research Assistant
+<h4><strong>Alvin Liu</strong></h4>
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="flex: 1; text-align: center;">
+    <img src="../pics/alvin.JPG" alt="Alvin Liu Photo" style="max-width: 75%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px; text-align: justify;">
+    <p>Alvin is a research assistant in the lab who graduated from Case Western Reserve University in 2024 with a B.A. in Cognitive Science.
+  </div>
+</div>
+
+<h4><strong>Anton Sergeev</strong></h4>
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="flex: 1; text-align: center;">
+    <img src="../pics/anton.jpeg" alt="Anton Photo" style="max-width: 75%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px; text-align: justify;">
+    <p>Anton is a research assistant in the lab. He obtained his bachelor degree from Boston University in 2024.
+  </div>
+</div>
+
 
 
 ***
