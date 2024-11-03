@@ -71,8 +71,8 @@ header_pages:
   - index.md
   - pages/research.md
   - pages/group.md
-  - pages/news.md
   - pages/publications.md
+  - pages/news.md
   - pages/opportunities.md
   - pages/contact.md
 

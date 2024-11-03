@@ -5,17 +5,17 @@ page_title: Group
 permalink: /group/
 ---
 ## PI
-<h4><strong>Yuan Gao, PhD</strong></h4>
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+
+<div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
   <div style="flex: 1; text-align: center;">
-    <img src="../pics/Gao-Yuan.jpg" alt="Yuan Gao Photo" style="max-width: 75%; height: auto;">
+    <img src="../pics/Gao-Yuan.jpg" alt="Yuan Gao Photo" style="max-width: 86%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px; text-align: justify;">
-    <p>Dr. Yuan Gao earned her Ph.D. in Biochemistry and Molecular Biology from Mayo Clinic College of Medicine. She worked as a Postdoctoral Fellow in Dr. Christopher Vakoc's lab at Cold Spring Harbor Laboratory and, starting in 2024, established her own lab as an Assistant Professor in the Department of Pharmacology at Case Western Reserve University. Dr. Gao's research focuses on epigenetic dysregulation and drug target discovery in cancer, earning recognition such as the NIH K99/R00 Pathway to Independence Award and the CSHL Simons Cancer Research Fund. Her work has been published in journals including Nature Cell Biology, PNAS, Nucleic Acid Research, Cancer Cell, and Nature Genetics.
+    <h4><strong>Yuan Gao, PhD</strong></h4>
+    <p>Dr. Yuan Gao earned her Ph.D. in Biochemistry and Molecular Biology from Mayo Clinic College of Medicine. She then worked as a Postdoctoral Fellow in Dr. Christopher Vakoc's lab at Cold Spring Harbor Laboratory and, starting in 2024, established her own lab as an Assistant Professor in the Department of Pharmacology at Case Western Reserve University.
+    </p>
   </div>
 </div>
-
-**Email**: yxg811 [at] case [dot] edu
 
 ## Research Assistants
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
@@ -34,7 +34,18 @@ permalink: /group/
   </div>
   <div style="flex: 2; padding-left: 20px; text-align: justify;">
     <h4><strong>Anton Sergeev</strong></h4>
-    <p>Anton is a research assistant in the lab. He obtained his bachelor’s degree from Boston University in 2024.</p>
+    <p>Anton works as a research assistant in the lab. He obtained his bachelor’s degree from the Boston University in 2024.</p>
+  </div>
+</div>
+
+## Undergraduate Research Assistant
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="flex: 1; text-align: center;">
+    <img src="../pics/saanvi.jpg" alt="Saanvi Photo" style="max-width: 70%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px; text-align: justify;">
+    <h4><strong>Saanvi Srivastava</strong></h4>
+    <p>Saanvi is a current sophomore at the Case Western Reserve University pursuing a major in biochemistry.</p>
   </div>
 </div>
 
