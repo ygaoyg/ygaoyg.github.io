@@ -85,7 +85,7 @@ We pursue this through three complementary directions:
   <div class="direction-num">3</div>
   <div class="direction-body">
     <h3>Modeling the tumor microenvironment to identify acquired dependencies</h3>
-    <p>Using custom microfluidic &ldquo;tumor on a chip&rdquo; devices, starting with Ewing sarcoma, we reconstruct the tumor microenvironment to uncover the acquired dependencies and resistance mechanisms it creates, and reveal new vulnerabilities to target therapeutically.</p>
+    <p>Using custom microfluidic &ldquo;sarcoma-on-a-chip&rdquo; devices, we reconstruct the tumor microenvironment to uncover the acquired dependencies and resistance mechanisms it creates, and reveal new vulnerabilities to target therapeutically.</p>
   </div>
 </div>
 
