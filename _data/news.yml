@@ -1,0 +1,68 @@
+# ===========================================================================
+# Lab News — single source of truth.
+# Both the News page (/news/) and the homepage "Lab News" sidebar read from
+# this file. Add or edit an entry here and BOTH update automatically.
+#
+# Entries can be in any order; the site sorts by `date` (newest first).
+#
+# Fields per entry:
+#   date         : YYYY-MM-DD   (used only for sorting — required)
+#   date_display : how the date appears on the site (e.g. "March 2026")
+#   text         : the news text (HTML links allowed, e.g. <a href='...'>...</a>)
+#   photo        : OPTIONAL image in /pics/ (shown on the News page only).
+#                  Omit for a text-only entry.
+#   logo         : OPTIONAL true — render `photo` as a contained logo
+#                  (white box, no cropping) instead of a cover photo.
+# ===========================================================================
+
+- date: 2026-04-20
+  date_display: "April 2026"
+  text: "Dr. Gao and Dr. Chao Ma from Cleveland Clinic received a two-year VeloSano Pilot collaborative grant to develop better therapeutics for Ewing sarcoma."
+  photo: logo-velosano.webp
+  logo: true
+
+- date: 2026-04-10
+  date_display: "April 2026"
+  text: "Dr. Gao was awarded the Rally Young Investigator Grant."
+  photo: logo-rally.jpg
+  logo: true
+
+- date: 2026-03-10
+  date_display: "March 2026"
+  text: "Dr. Gao was awarded an ASBMB Early Career Travel Award."
+
+- date: 2026-03-05
+  date_display: "March 2026"
+  text: "The Charlie Landers Foundation awarded the lab a $112,000 research grant for the proposal \"Therapeutically Targeting Lipid Metabolism to Overcome Vulnerabilities in Ewing Sarcoma.\""
+  photo: logo-charlie-landers.svg
+  logo: true
+
+- date: 2025-12-01
+  date_display: "December 2025"
+  text: "Our lab received the Andrew McDonough B+ Foundation Award to support dissecting sarcoma-on-a-chip."
+  photo: logo-bplus.jpg
+  logo: true
+
+- date: 2025-11-01
+  date_display: "November 2025"
+  text: "Congratulations to Muyi (Felix) Ye! His paper, \"DCMiC: a double-cylinder micro-chamber platform for high-throughput drug screening and modeling of microenvironmental resistance in Ewing sarcoma,\" was accepted at <a href='https://doi.org/10.1039/d5lc00856e' target='_blank'>Lab on a Chip</a>."
+
+- date: 2025-09-01
+  date_display: "September 2025"
+  text: "Postdoctoral fellow Dr. Hang Zhao joined the lab. Welcome!"
+  photo: hang-zhao.jpg
+
+- date: 2024-12-01
+  date_display: "December 2024"
+  text: "Graduate students Muyi (Felix) Ye and Yeriel Avellanet-Crespo joined the lab. Welcome!"
+  photo: welcome-muyi-yeriel.jpg
+
+- date: 2024-11-01
+  date_display: "Nov 1, 2024"
+  text: "Lab Sushi Day to celebrate Muyi (Felix)'s completion of his lab rotation and to welcome new members: Research Assistant Anton and Rotation Student Yeriel."
+  photo: IMG_1767.jpg
+
+- date: 2024-10-11
+  date_display: "Oct 11, 2024"
+  text: "Celebrating Alexis's completion of her lab rotation and welcoming new team members: Research Assistant Alvin and Rotation Student Muyi (Felix)."
+  photo: IMG_1364.jpeg

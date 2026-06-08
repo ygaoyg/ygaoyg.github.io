@@ -32,6 +32,21 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Keep bulky photo originals out of the published site (web-optimized copies live in pics/)
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - "pics/group headshot/"
+  - "pics/slideshow/_originals/"
+  - build_preview.py
+  - preview.html
+  - index.md.bak
+
 # Theme-specific settings
 
 minima:
@@ -69,7 +84,7 @@ minima:
 # order as they should show up.
 header_pages:
   - index.md
-  - pages/research.md
+  # - pages/research.md   # temporarily hidden from nav (file kept for later)
   - pages/group.md
   - pages/publications.md
   - pages/news.md

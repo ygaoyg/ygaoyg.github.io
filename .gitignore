@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+**/.DS_Store
+
+# Local preview / dev tooling (not part of the published site)
+.claude/
+build_preview.py
+preview.html
+preview_*.html
+index.md.bak
+
+# Bulky source assets — web-optimized copies are committed under pics/
+pics/group headshot/
+pics/funder logo/
+pics/slideshow/_originals/
