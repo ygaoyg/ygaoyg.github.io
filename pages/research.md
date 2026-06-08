@@ -14,12 +14,12 @@ permalink: /research/
 .research a { color: #1d6fb8; text-decoration: none; }
 .research a:hover { text-decoration: underline; }
 
-.research-lede { font-size: 1.14rem; line-height: 1.75; max-width: 840px; }
+.research-lede { font-size: 1.14rem; line-height: 1.75; max-width: 840px; text-align: justify; }
 .research-lede strong { color: #0a3161; }
 .research-lede .pull {
-  display: block; margin: 18px 0 4px;
+  display: block; margin: 22px auto 8px; max-width: 720px;
   font-family: 'Lora', Georgia, serif; font-style: italic;
-  font-size: 1.25rem; line-height: 1.4; color: #0a3161;
+  font-size: 1.25rem; line-height: 1.4; color: #0a3161; text-align: center;
 }
 
 .directions-title {
@@ -58,7 +58,7 @@ permalink: /research/
 <div class="research">
 
 <p class="research-lede">
-Our lab studies <strong>cancer-specific transcription factor (TF) dependencies</strong> &mdash; the master regulators of gene expression that tumors become addicted to, yet normal cells can live without. These transcription factors have long been considered &ldquo;undruggable,&rdquo; and we develop new strategies to target them &mdash; turning a cancer&rsquo;s reliance on a TF into a therapeutic vulnerability and, ultimately, <strong>better treatments</strong>. We use Ewing sarcoma, where we discovered the essential TF ETV6, as a flagship model, and extend these approaches to other TF-driven cancers.
+Our lab studies <strong>cancer-specific transcription factor (TF) dependencies</strong>, the master regulators of gene expression that tumors become addicted to, yet normal cells can live without. These transcription factors have long been considered &ldquo;undruggable,&rdquo; and we develop new strategies to target them, turning a cancer&rsquo;s reliance on a TF into a therapeutic vulnerability and, ultimately, <strong>better treatments</strong>. We use Ewing sarcoma, where we discovered the essential TF ETV6, as a flagship model, and extend these approaches to other TF-driven cancers.
 <span class="pull">Every cancer-specific dependency is a therapeutic opportunity.</span>
 We pursue this through three complementary directions:
 </p>
@@ -69,7 +69,7 @@ We pursue this through three complementary directions:
   <div class="direction-num">1</div>
   <div class="direction-body">
     <h3>Targeting essential protein interactions of TF dependencies</h3>
-    <p>Cancer-dependent transcription factors act through partner-protein interactions. We map these protein&ndash;protein interactions and pinpoint the ones tumor cells cannot live without &mdash; beginning with ETV6 in Ewing sarcoma &mdash; in order to disrupt them as a therapeutic strategy.</p>
+    <p>Cancer-dependent transcription factors act through interactions with partner proteins. We map these interactions and pinpoint the ones tumor cells cannot live without, then disrupt them as a therapeutic strategy.</p>
   </div>
 </div>
 
@@ -77,7 +77,7 @@ We pursue this through three complementary directions:
   <div class="direction-num">2</div>
   <div class="direction-body">
     <h3>Ligand modulation of transcription factors</h3>
-    <p>Transcription factors have long been considered difficult to drug. We are exploring how small molecules and metabolites can bind and modulate factors such as ETV6, aiming to pharmacologically tune their activity and unlock new therapeutic targets.</p>
+    <p>Transcription factors have long been considered difficult to drug. We are exploring how small molecules and metabolites can bind and modulate these factors, aiming to pharmacologically tune their activity and unlock new therapeutic targets.</p>
   </div>
 </div>
 
@@ -85,7 +85,7 @@ We pursue this through three complementary directions:
   <div class="direction-num">3</div>
   <div class="direction-body">
     <h3>Modeling the tumor microenvironment to identify acquired dependencies</h3>
-    <p>Using custom microfluidic &ldquo;tumor-on-a-chip&rdquo; devices &mdash; starting with Ewing sarcoma &mdash; we reconstruct the tumor microenvironment to uncover the acquired dependencies and resistance mechanisms it creates, revealing new vulnerabilities to target therapeutically.</p>
+    <p>Using custom microfluidic &ldquo;tumor on a chip&rdquo; devices, starting with Ewing sarcoma, we reconstruct the tumor microenvironment to uncover the acquired dependencies and resistance mechanisms it creates, and reveal new vulnerabilities to target therapeutically.</p>
   </div>
 </div>
 
