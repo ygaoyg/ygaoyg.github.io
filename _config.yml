@@ -84,7 +84,7 @@ minima:
 # order as they should show up.
 header_pages:
   - index.md
-  # - pages/research.md   # temporarily hidden from nav (file kept for later)
+  - pages/research.md
   - pages/group.md
   - pages/publications.md
   - pages/news.md
