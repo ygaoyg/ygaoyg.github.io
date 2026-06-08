@@ -1,0 +1,11 @@
+---
+# This overrides the minima theme's own assets/main.scss (the stylesheet the
+# pages actually link as /assets/main.css). The theme default content width is
+# only 800px; here we widen it using `page_width` from _config.yml.
+---
+{% assign page_width = site.page_width %}
+$content-width: {{ page_width | default: "1440px" }} !default;
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
