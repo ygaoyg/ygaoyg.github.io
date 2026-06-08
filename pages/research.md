@@ -58,7 +58,7 @@ permalink: /research/
 <div class="research">
 
 <p class="research-lede">
-Our lab studies <strong>cancer-specific transcription factor (TF) dependencies</strong>, the master regulators of gene expression that tumors become addicted to, yet normal cells can live without. These transcription factors have long been considered &ldquo;undruggable,&rdquo; and we develop new strategies to target them, turning a cancer&rsquo;s reliance on a TF into a therapeutic vulnerability and, ultimately, <strong>better treatments</strong>. We use Ewing sarcoma, where we discovered the essential TF ETV6, as a flagship model, and extend these approaches to other TF-driven cancers.
+Our lab studies <strong>cancer-specific transcription factor (TF) dependencies</strong>, the master regulators of gene expression that tumors become addicted to, yet normal cells can live without. These transcription factors have long been considered &ldquo;undruggable,&rdquo; and we develop new strategies to target them, turning a cancer&rsquo;s reliance on a TF into a therapeutic vulnerability and, ultimately, <strong>better treatments</strong>. In Ewing sarcoma, our primary disease model, we discovered that the cells are selectively dependent on the transcription factor ETV6, and we now apply this framework to additional transcription-factor-driven cancers.
 <span class="pull">Every cancer-specific dependency is a therapeutic opportunity.</span>
 We pursue this through three complementary directions:
 </p>
