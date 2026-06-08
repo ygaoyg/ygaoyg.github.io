@@ -95,7 +95,7 @@ header_pages:
 #header_img: pics/jekyllrb.jpg
 
 # width of the page
-page_width: 1200px # controls both header image and text content width.
+page_width: 1440px # controls both header image and text content width.
 
 # add google-analytics
 # google_analytics: test
