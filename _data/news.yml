@@ -15,6 +15,12 @@
 #                  (white box, no cropping) instead of a cover photo.
 # ===========================================================================
 
+- date: 2026-07-31
+  date_display: "July 2026"
+  text: "Hypothesis confirmed! Our lab ran a friendly pool to predict the FIFA World Cup 2026 champion, and Dr. Gao called it by picking Spain. The lab celebrated her winning prediction with a custom championship trophy. 🏆⚽"
+  photo: fifa-2026-slide.png
+  wide: true
+
 - date: 2026-04-20
   date_display: "April 2026"
   text: "Dr. Gao and Dr. Chao Ma from Cleveland Clinic received a two-year VeloSano Pilot collaborative grant to develop better therapeutics for Ewing sarcoma."

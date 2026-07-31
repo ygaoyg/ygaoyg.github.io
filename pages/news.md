@@ -30,6 +30,11 @@ permalink: /news/
   object-fit: contain; background: #fff;
   padding: 18px; border: 1px solid #e6e9ee;
 }
+/* full-width slide/graphic (shown uncropped, image on top, caption below) */
+.news-entry.is-wide { flex-direction: column; align-items: stretch; }
+.news-entry.is-wide .news-entry-photo {
+  width: 100%; max-width: 100%; height: auto; aspect-ratio: auto;
+}
 .news-entry-body { flex: 1 1 0; min-width: 0; }
 .news-entry-date {
   display: inline-block; font-size: 0.74rem; font-weight: 700;
@@ -52,7 +57,7 @@ permalink: /news/
 <!-- NEWSPAGE:START — auto-generated from _data/news.yml (newest first) -->
 {% assign news_items = site.data.news | sort: "date" | reverse %}
 {% for item in news_items %}
-<article class="news-entry">
+<article class="news-entry{% if item.wide %} is-wide{% endif %}">
   {% if item.photo %}<img class="news-entry-photo{% if item.logo %} is-logo{% endif %}" src="../pics/{{ item.photo }}" alt="Lab news photo">{% endif %}
   <div class="news-entry-body">
     <span class="news-entry-date">{{ item.date_display }}</span>
