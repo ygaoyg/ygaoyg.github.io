@@ -35,6 +35,11 @@ permalink: /news/
 .news-entry.is-wide .news-entry-photo {
   width: 100%; max-width: 100%; height: auto; aspect-ratio: auto;
 }
+/* slide/graphic in the standard left-image / right-text layout, uncropped */
+.news-entry-photo.is-slide {
+  width: 400px; max-width: 46%; height: auto; aspect-ratio: auto;
+  object-fit: contain; border: 1px solid #e6e9ee;
+}
 .news-entry-body { flex: 1 1 0; min-width: 0; }
 .news-entry-date {
   display: inline-block; font-size: 0.74rem; font-weight: 700;
@@ -58,7 +63,7 @@ permalink: /news/
 {% assign news_items = site.data.news | sort: "date" | reverse %}
 {% for item in news_items %}
 <article class="news-entry{% if item.wide %} is-wide{% endif %}">
-  {% if item.photo %}<img class="news-entry-photo{% if item.logo %} is-logo{% endif %}" src="../pics/{{ item.photo }}" alt="Lab news photo">{% endif %}
+  {% if item.photo %}<img class="news-entry-photo{% if item.logo %} is-logo{% endif %}{% if item.slide %} is-slide{% endif %}" src="../pics/{{ item.photo }}" alt="Lab news photo">{% endif %}
   <div class="news-entry-body">
     <span class="news-entry-date">{{ item.date_display }}</span>
     <p class="news-entry-text">{{ item.text }}</p>
