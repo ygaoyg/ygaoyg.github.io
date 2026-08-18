@@ -49,10 +49,10 @@ permalink: /news/
 /* funder logo strip (for white/reverse logos, shown on a dark panel) */
 .news-logostrip {
   flex: 0 0 auto; width: 320px; max-width: 46%;
-  display: flex; align-items: center; justify-content: center; gap: 22px;
-  background: #0a3161; border-radius: 12px; padding: 24px 20px;
+  display: flex; align-items: center; justify-content: center; gap: 24px;
+  background: #f7f9fc; border: 1px solid #e6e9ee; border-radius: 12px; padding: 26px 22px;
 }
-.news-logostrip img { max-height: 64px; max-width: 46%; width: auto; object-fit: contain; }
+.news-logostrip img { max-height: 60px; max-width: 46%; width: auto; object-fit: contain; }
 .news-entry-body { flex: 1 1 0; min-width: 0; }
 .news-entry-date {
   display: inline-block; font-size: 0.74rem; font-weight: 700;
