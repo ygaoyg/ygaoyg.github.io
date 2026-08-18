@@ -15,6 +15,14 @@
 #                  (white box, no cropping) instead of a cover photo.
 # ===========================================================================
 
+- date: 2026-08-15
+  date_display: "August 2026"
+  text: "Our lab received a &ldquo;D-Feet Cancer: The Dalton Fox Foundation&rdquo; St. Baldrick's Research Grant ($200,000 over two years) to find better targeted therapies for Ewing sarcoma."
+
+- date: 2026-08-04
+  date_display: "August 2026"
+  text: "Dr. Gao co-authored a perspective in Genes &amp; Development, <a href='https://doi.org/10.1101/gad.353549.125' target='_blank'>&ldquo;Pediatric sarcomas: challenges and opportunities,&rdquo;</a> summarizing a Banbury Center meeting at Cold Spring Harbor Laboratory on the future of pediatric sarcoma research."
+
 - date: 2026-07-31
   date_display: "July 2026"
   text: "Hypothesis confirmed! 🏆 Dr. Gao won the lab's FIFA World Cup 2026 prediction pool by calling Spain, and the lab crowned her with a custom trophy."

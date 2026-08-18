@@ -64,6 +64,12 @@ permalink: /publications/
 <h2 class="year-head">2026</h2>
 
 <div class="pub">
+  <a class="pub-title" href="https://doi.org/10.1101/gad.353549.125" target="_blank">Pediatric sarcomas: challenges and opportunities.</a>
+  <div class="pub-authors"><span class="me">Gao Y</span>, Bailey KM, Blackman SC, Bushweller JH, Chong S, DeHond K, Grembecka J, Hatley ME, Kadoch C, Koehler AN, Linardic CM, Renna P, Reu FJ, Rivera MN, Stewart EA, Stillman B, Sweet-Cordero EA, Stegmaier K, Vakoc CR, Guenther LM.</div>
+  <div class="pub-meta"><span class="pub-journal">Genes &amp; Development</span><span class="dot">&middot;</span>2026</div>
+</div>
+
+<div class="pub">
   <a class="pub-title" href="https://doi.org/10.1039/d5lc00856e" target="_blank">DCMiC: a double-cylinder micro-chamber platform for high-throughput drug screening and modeling of microenvironmental resistance in Ewing sarcoma.</a>
   <div class="pub-authors">Lee J<span class="sym">*</span>, Ye M<span class="sym">*</span>, Ybarra M, Fei J, <span class="me">Gao Y</span><span class="sym">#</span>, Ma C<span class="sym">#</span>.</div>
   <div class="pub-meta"><span class="pub-journal">Lab on a Chip</span><span class="dot">&middot;</span>2026</div>
