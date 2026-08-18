@@ -65,7 +65,7 @@ permalink: /publications/
 
 <div class="pub">
   <a class="pub-title" href="https://doi.org/10.1101/gad.353549.125" target="_blank">Pediatric sarcomas: challenges and opportunities.</a>
-  <div class="pub-authors"><span class="me">Gao Y</span>, Bailey KM, Blackman SC, Bushweller JH, Chong S, DeHond K, Grembecka J, Hatley ME, Kadoch C, Koehler AN, Linardic CM, Renna P, Reu FJ, Rivera MN, Stewart EA, Stillman B, Sweet-Cordero EA, Stegmaier K, Vakoc CR, Guenther LM.</div>
+  <div class="pub-authors"><span class="me">Gao Y</span><span class="sym">#</span>, Bailey KM, Blackman SC, Bushweller JH, Chong S, DeHond K, Grembecka J, Hatley ME, Kadoch C, Koehler AN, Linardic CM, Renna P, Reu FJ, Rivera MN, Stewart EA, Stillman B, Sweet-Cordero EA, Stegmaier K, Vakoc CR, Guenther LM<span class="sym">#</span>.</div>
   <div class="pub-meta"><span class="pub-journal">Genes &amp; Development</span><span class="dot">&middot;</span>2026</div>
 </div>
 
