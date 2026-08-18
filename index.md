@@ -240,6 +240,11 @@ title: Home
   transition: filter 0.25s ease, opacity 0.25s ease;
 }
 .funder:hover img { filter: grayscale(0%); opacity: 1; }
+/* variants for white/reverse logos that need a dark or filled background */
+.funder.is-dark { background: #0a3161; border-color: #0a3161; }
+.funder.is-dark img, .funder.is-fill img { filter: none; opacity: 1; }
+.funder.is-fill { padding: 0; overflow: hidden; }
+.funder.is-fill img { width: 100%; height: 100%; max-height: none; max-width: none; object-fit: cover; }
 .funding-logos .placeholder {
   display: flex; align-items: center; justify-content: center;
   height: 104px; min-width: 188px; padding: 0 18px;
@@ -330,6 +335,8 @@ title: Home
     <div class="funder"><img src="pics/logo-charlie-landers.svg" alt="Charlie Landers Foundation"></div>
     <div class="funder"><img src="pics/logo-rally.jpg" alt="Rally Foundation for Childhood Cancer Research"></div>
     <div class="funder"><img src="pics/logo-velosano.webp" alt="VeloSano"></div>
+    <div class="funder is-dark"><img src="pics/logo-dfeet.svg" alt="D-Feet Cancer: The Dalton Fox Foundation"></div>
+    <div class="funder is-fill"><img src="pics/logo-stbaldricks.png" alt="St. Baldrick's Foundation"></div>
   </div>
 </div>
 

@@ -46,6 +46,13 @@ permalink: /news/
   aspect-ratio: auto; object-fit: contain;
   border: 1px solid #e6e9ee; box-shadow: 0 4px 14px rgba(10, 49, 97, 0.12);
 }
+/* funder logo strip (for white/reverse logos, shown on a dark panel) */
+.news-logostrip {
+  flex: 0 0 auto; width: 320px; max-width: 46%;
+  display: flex; align-items: center; justify-content: center; gap: 22px;
+  background: #0a3161; border-radius: 12px; padding: 24px 20px;
+}
+.news-logostrip img { max-height: 64px; max-width: 46%; width: auto; object-fit: contain; }
 .news-entry-body { flex: 1 1 0; min-width: 0; }
 .news-entry-date {
   display: inline-block; font-size: 0.74rem; font-weight: 700;
@@ -69,7 +76,7 @@ permalink: /news/
 {% assign news_items = site.data.news | sort: "date" | reverse %}
 {% for item in news_items %}
 <article class="news-entry{% if item.wide %} is-wide{% endif %}">
-  {% if item.photo %}<img class="news-entry-photo{% if item.logo %} is-logo{% endif %}{% if item.slide %} is-slide{% endif %}{% if item.doc %} is-doc{% endif %}" src="../pics/{{ item.photo }}" alt="Lab news photo">{% endif %}
+  {% if item.logos %}<div class="news-logostrip">{% for lg in item.logos %}<img src="../pics/{{ lg }}" alt="Funder logo">{% endfor %}</div>{% elsif item.photo %}<img class="news-entry-photo{% if item.logo %} is-logo{% endif %}{% if item.slide %} is-slide{% endif %}{% if item.doc %} is-doc{% endif %}" src="../pics/{{ item.photo }}" alt="Lab news photo">{% endif %}
   <div class="news-entry-body">
     <span class="news-entry-date">{{ item.date_display }}</span>
     <p class="news-entry-text">{{ item.text }}</p>
